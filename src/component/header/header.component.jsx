@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
 import "./header.styles.scss";
 
-function Header(props) {
+function Header({ showSidebar }) {
   return (
     <header className="page-header">
       <div className="nav-center">
@@ -12,7 +12,7 @@ function Header(props) {
             Erick <span className="bold">Sixto</span>
           </h1>
         </div>
-        <button className="nav-btn">
+        <button className="nav-btn" onClick={showSidebar}>
           <HiMenu />
         </button>
         <ul className="nav-links">
