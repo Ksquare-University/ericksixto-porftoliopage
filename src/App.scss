@@ -1,0 +1,57 @@
+@import "./tools/variables.scss";
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: $widescreen-width) {
+  body {
+    font-size: 1.5;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: $widescreen-width) {
+  body {
+    font-size: 1.7vw;
+  }
+}
+
+@media screen and (max-width: $desktop-width) {
+  body {
+    font-size: 2vw;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: $tablet-width) {
+  body {
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: $mobile-landscape-width) {
+  body {
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: $mobile-width) {
+  body {
+    font-size: 2vw;
+  }
+}

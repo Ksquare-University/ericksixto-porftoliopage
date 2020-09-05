@@ -7,7 +7,7 @@ import Projects from "./pages/projects";
 import Header from "./component/header/header.component";
 import Sidebar from "./component/sidebar/sidebar.component";
 
-import "./App.css";
+import "./App.scss";
 
 function App() {
   const [visibility, setVisibility] = useState(false);

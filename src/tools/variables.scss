@@ -1,21 +1,19 @@
-
 //Colors
 
-$color-primary: #B22222;
-$color-primary-light: #CF4F57;
-$color-primary-dark: #5E1831;
-$color-secondary: #3B424D;
-$color-secondary-light: #C0C7CC;
+$color-primary: #b22222;
+$color-primary-light: #cf4f57;
+$color-primary-dark: #5e1831;
+$color-primary-back: #F8E5E7;
+$color-secondary: #3b424d;
+$color-secondary-light: #c0c7cc;
 $color-secondary-dark: #401127;
 
-
 //Transitions
-$transition: all 0.3s linear ;
+$transition: all 0.3s linear;
 //Width Breakpoints
 
 $mobile-width: 576px;
 $mobile-landscape-width: 640px;
-$tablet-width:768px;
+$tablet-width: 768px;
 $desktop-width: 992px;
 $widescreen-width: 1200px;
-

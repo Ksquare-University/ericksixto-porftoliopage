@@ -4,7 +4,7 @@ $animate: all 0.2s ease-in-out;
 
 header.page-header {
   height: 5rem;
-  padding: 1rem;
+  padding: 1rem 2rem;
   display: grid;
   align-items: center;
   transition: $transition;
@@ -19,13 +19,15 @@ header.page-header {
 
     .nav-header {
       h1.page-title {
+        font-size: 2em;
         font-family: "Roboto";
         font-weight: normal;
+        cursor: default;
         .bold {
           font-family: "Open Sans";
 
           font-weight: bold;
-          color: $color-primary-dark;
+          color: $color-primary;
         }
       }
     }
