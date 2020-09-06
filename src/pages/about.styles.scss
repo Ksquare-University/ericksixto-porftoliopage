@@ -24,15 +24,17 @@
       }
     }
 
-    .section-title {
-      margin-bottom: 2rem;
-      text-align: left;
+    .about-text {
+      .section-title {
+        margin-bottom: 2rem;
+        text-align: left;
 
-      .underline {
-        width: 4rem;
-        height: 0.3rem;
-        margin-bottom: 1.25rem;
-        background: $color-primary;
+        .about-underline {
+          width: 4rem;
+          height: 0.3rem;
+          margin-bottom: 1.25rem;
+          background: $color-primary;
+        }
       }
     }
 

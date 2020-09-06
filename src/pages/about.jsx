@@ -17,7 +17,7 @@ const About = () => {
         <article className="about-text">
           <div className="section-title">
             <h2>About Me</h2>
-            <div className="underline" />
+            <div className="about-underline" />
           </div>
           <p className="about-history">
             My name is Erick Sixto Hernández Palomo. I am a 
