@@ -20,8 +20,9 @@ const About = () => {
             <div className="underline" />
           </div>
           <p className="about-history">
-            I am an engineer in mechatronics graduated from the Autonomous
-            University of Yucatan. I currently live in Mérida.
+            My name is Erick Sixto Hernández Palomo. I am a 
+            mechatronics engineer graduated from the Autonomous University of Yucatan. I
+            currently live in Mérida.
           </p>
           <p className="about-history">
             {" "}

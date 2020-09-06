@@ -31,7 +31,7 @@ const Contact = () => {
           className="button"
           href="mailto:sixtohernandezpalomo@email.com?subject=I would like to hire you"
         >
-          Mail Me
+          Email Me
         </a>
       </div>
     </section>

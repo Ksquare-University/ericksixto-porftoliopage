@@ -1,0 +1,30 @@
+@import "../../tools/variables.scss";
+
+.footer {
+  height: 9rem;
+  background: $footer-color;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  .footer-links {
+    margin: 0 auto 1rem;
+
+    a.social-link {
+      color: white;
+      &:hover {
+        color: lighten($color-primary, 20);
+      }
+    }
+  }
+
+  h4 {
+    margin-top: 0.5rem;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    span {
+      color: $color-primary-light;
+    }
+  }
+}
