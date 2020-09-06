@@ -5,6 +5,7 @@ import cards from "../images/cards.jpg";
 import electronic from "../images/electronic.jpg";
 import Hangman from "../images/Hangman.jpg";
 import reactproject from "../images/reactproject.jpg";
+import Drone from "../images/Drone.jpg";
 import "./projects.styles.scss";
 
 const Projects = () => {
@@ -42,6 +43,9 @@ const Projects = () => {
                 <span className="stack-skill">Redux</span>
                 <span className="stack-skill">SASS</span>
                 <span className="stack-skill">Bootstrap</span>
+                <span className="stack-skill">JS ES6</span>
+                <span className="stack-skill">CSS</span>
+                <span className="stack-skill">HTML</span>
               </div>
 
               <div className="project-links">
@@ -85,6 +89,90 @@ const Projects = () => {
                 <a href="https://www.google.com">
                   <VscGithub />
                 </a>
+              </div>
+            </div>
+          </article>
+
+          <article className="project">
+            <div className="project-img">
+              <img src={Hangman} alt="hangman" />
+            </div>
+            <div className="project-info">
+              <h3 className="project-title">The Hangman</h3>
+
+              <p className="project-description">
+                A embedded system project that emulated the classic game "The
+                Hangman". Users can choose between 3 difficulties and start
+                playing.
+              </p>
+              <p className="project-description">
+                The project was made using a PSOC, a button-matrix, RGB Leds, a
+                Speaker and a graphic display. The memory has a database of +100
+                words and the project has custom visual and sound effects on:
+                Start Game, Winning and Losing.
+              </p>
+
+              <div className=" project-stack">
+                <span className="stack-skill">PSOC</span>
+                <span className="stack-skill">Assembly Code</span>
+                <span className="stack-skill">Electronics</span>
+              </div>
+            </div>
+          </article>
+
+          <article className="project">
+            <div className="project-img">
+              <img src={cards} alt="cards" />
+            </div>
+            <div className="project-info">
+              <h3 className="project-title">Card detection</h3>
+
+              <p className="project-description">
+                A computer vision project that is able to identify a card from a
+                52-card deck when placed in front of a camera with a background
+                contrast.
+              </p>
+              <p className="project-description">
+                The project is able to isolate the corner of the card and
+                identify the number and suit of it. The it displays the card
+                name on a screen and an image of that card. The application was
+                made using C and image processing algorithms.
+              </p>
+
+              <div className=" project-stack">
+                <span className="stack-skill">Image Processing</span>
+                <span className="stack-skill">C</span>
+                <span className="stack-skill">Electronics</span>
+              </div>
+            </div>
+          </article>
+
+          <article className="project">
+            <div className="project-img">
+              <img src={Drone} alt="Drone" />
+            </div>
+            <div className="project-info">
+              <h3 className="project-title">Sensor Drone</h3>
+
+              <p className="project-description">
+                A electronics and intrumentation project. Using a Drone a
+                3-member team developed a sensor module that obtains the levels
+                of CO2 on the air, as well as the temperature and air-humidity.
+                This with the objective of see a relationship between the CO2
+                and humidity and the high temperatures of zones without plants
+                or trees.
+              </p>
+              <p className="project-description">
+                The module was designed using SolidWorks and developed with an
+                Arduino and several sensors. The logic was accomplished using
+                Python to obtain and analize the data and C to perform the
+                sensor logic.
+              </p>
+
+              <div className=" project-stack">
+                <span className="stack-skill">Python</span>
+                <span className="stack-skill">SolidWorks</span>
+                <span className="stack-skill">Electronics</span>
               </div>
             </div>
           </article>
