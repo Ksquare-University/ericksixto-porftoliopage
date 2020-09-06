@@ -1,5 +1,5 @@
 import React from "react";
-import "./contact.styles.scss"
+import "./contact.styles.scss";
 
 const Contact = () => {
   return (
@@ -11,15 +11,28 @@ const Contact = () => {
 
       <div className="section-center page-info">
         <p>
-          Hi! If you want to get in touch with me, please reach me at{" "}
+          Hi! If you are looking to get in touch with me, please reach me at my
+          personal email:{" "}
           <span className="highlight">sixtohernandezpalomo@gmail.com</span>
         </p>
         <p>
           You can also contact me at my{" "}
-          <a className="highlight" href="www.linkedin.com/in/sixto-hernandez">
+          <a
+            className="highlight"
+            href="https://www.linkedin.com/in/sixto-hernandez"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Linkedin
           </a>
         </p>
+
+        <a
+          className="button"
+          href="mailto:sixtohernandezpalomo@email.com?subject=I would like to hire you"
+        >
+          Mail Me
+        </a>
       </div>
     </section>
   );

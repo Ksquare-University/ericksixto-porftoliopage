@@ -18,9 +18,21 @@
     }
   }
 
-  .page-info{
-      max-width: 750px;
-      width: 90vw;
-      margin: 0 auto;
+  .page-info {
+    max-width: 750px;
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+
+    p {
+      font-size: 1.3em;
+      line-height: 2;
+
+      .highlight {  
+        color: $color-primary;
+        font-weight: bold;
+      }
+    }
+
   }
 }
