@@ -9,6 +9,35 @@ a {
   text-decoration: none;
 }
 
+p {
+  color: $color-secondary;
+  margin-bottom: 1.25rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 0.25rem;
+  line-height: 1.25;
+  font-family: "Open Sans";
+  text-transform: capitalize;
+  margin-bottom: 0.75rem;
+}
+
+.stack-skill {
+  color: white;
+  display: inline-block;
+  background: $color-primary-light;
+  margin-right: 0.5rem;
+  padding: 0.2rem 0.35rem;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+}
+
 @media screen and (min-width: $widescreen-width) {
   body {
     font-size: 1.5;
@@ -16,6 +45,9 @@ a {
 
   h1 {
     font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
   }
   h4 {
     font-size: 1.5rem;
@@ -26,6 +58,16 @@ a {
   body {
     font-size: 1.7vw;
   }
+
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: $desktop-width) {
@@ -34,6 +76,9 @@ a {
   }
   h1 {
     font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
   }
   h4 {
     font-size: 1.5rem;
@@ -52,6 +97,6 @@ a {
 }
 @media screen and (max-width: $mobile-width) {
   body {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 }

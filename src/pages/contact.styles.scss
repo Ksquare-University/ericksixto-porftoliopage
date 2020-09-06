@@ -1,0 +1,26 @@
+@import "../tools/variables.scss";
+
+.contact-page {
+  padding: 7rem 0;
+  background: $color-primary-back;
+  min-height: calc(100vh - 5rem - 190px);
+
+  .section-title {
+    margin-bottom: 4rem;
+    text-align: center;
+    .underline {
+      width: 10rem;
+      height: 0.25rem;
+      margin-bottom: 1.25rem;
+      background: $color-primary;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .page-info{
+      max-width: 750px;
+      width: 90vw;
+      margin: 0 auto;
+  }
+}
