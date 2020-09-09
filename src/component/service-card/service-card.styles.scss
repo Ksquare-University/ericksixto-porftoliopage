@@ -1,0 +1,61 @@
+@import "../../tools/variables.scss";
+
+.service {
+  display: block;
+  background: white;
+  padding: 3rem 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0.35rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  text-align: center;
+  transition: $transition;
+  h4 {
+    transition: $transition;
+    font-family: "Roboto";
+    margin-bottom: 0.25rem;
+    text-transform: capitalize;
+  }
+
+  p {
+    transition: $transition;
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    color: grey;
+    letter-spacing: 0.2rem;
+    line-height: 1.7rem;
+  }
+
+  svg {
+    transition: $transition;
+    font-size: 3rem;
+    color: $color-primary;
+    margin-bottom: 1.5rem;
+  }
+  .underline {
+    width: 3rem;
+    height: 0.15rem;
+    min-height: 4px;
+    transition: $transition;
+    margin-bottom: 1.25rem;
+    background: $color-primary;
+    margin: 0 auto;
+  }
+}
+
+.service:hover {
+  background: $color-primary;
+  color: white;
+}
+.service:hover p {
+  color: white;
+}
+.service:hover svg {
+  color: white;
+}
+.service:hover h4 {
+  color: white;
+}
+.service:hover .underline {
+  background: white;
+}

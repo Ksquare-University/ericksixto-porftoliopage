@@ -3,13 +3,15 @@
 .about-page {
   padding: 7rem 0;
   background: $color-secondary-light;
-  min-height: calc(100vh - 12rem);
+  min-height: calc(100vh - 14rem);
+  display: flex;
+  align-items: center;
 
   .about-center {
     .about-img {
       position: relative;
       overflow: hidden;
-      height: 25rem;
+      height: 35rem;
       margin-bottom: 2rem;
 
       .my-image {
@@ -25,6 +27,7 @@
     }
 
     .about-text {
+      height: 35rem;
       .section-title {
         margin-bottom: 2rem;
         text-align: left;
@@ -35,6 +38,9 @@
           margin-bottom: 1.25rem;
           background: $color-primary;
         }
+      }
+      .about-history {
+        font-size: 1.2rem;
       }
     }
 

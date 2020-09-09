@@ -21,7 +21,7 @@ const Footer = () => {
           <li>
             <a
               className="social-link"
-              href="https://www.linkedin.com/in/sixto-hernandez"
+              href="https://github.com/ErickSixto"
               target="_blank"
               rel="noopener noreferrer"
             >

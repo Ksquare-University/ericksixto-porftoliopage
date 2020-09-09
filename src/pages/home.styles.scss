@@ -34,7 +34,10 @@
       }
 
       .hero-btn {
+        font-size: 1.5rem;
         margin-top: 1.5rem;
+        font-weight: bold;
+      
       }
     }
 
@@ -42,6 +45,10 @@
       display: none;
     }
   }
+}
+
+.bg-secondary{
+  background: $color-secondary-light;
 }
 
 @media screen and (min-width: $desktop-width) {
@@ -74,4 +81,5 @@
       }
     }
   }
+
 }
