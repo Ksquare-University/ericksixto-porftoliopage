@@ -20,28 +20,38 @@ const About = () => {
             <div className="about-underline" />
           </div>
           <p className="about-history">
-            My name is Erick Sixto Hernández Palomo. I am a 
-            mechatronics engineer graduated from the Autonomous University of Yucatan. I
+            My name is Erick Sixto Hernández Palomo. I am a mechatronics
+            engineer graduated from the Autonomous University of Yucatan. I
             currently live in Mérida.
           </p>
           <p className="about-history">
+            I just graduated from the Mechatronics engineer career, from the
+            UADY (Universidad Autónoma de Yucatán). I got the top point grade
+            average of my generation and learned a high variety of things like
+            3D design, electronic design, industrial automation, and control of
+            embedded systems.
+          </p>
+          <p className="about-history">
             {" "}
-            During my last years at school I dedicated myself to learning web
-            development on my own through learning platforms like Udemy and
-            Pluralsight. I love learning and develop new things to solve
-            problems or create amazing projects. I have knowledge in areas such
-            as 3D design, process automation and electronics that have helped me
-            to carry out personal work and thanks to my dedication I learned to
-            develop web applications using the 3 pillars of the frontend and
-            frameworks like React.{" "}
+            During my last years at school I discovered a passion for software
+            developing so, I dedicated myself to learning web development on my
+            own through learning platforms like Udemy and Pluralsight. I love
+            learning and develop new things to solve problems or create amazing
+            projects. I learned to develop web applications using the 3 pillars
+            of the frontend and frameworks like React. This gave me the
+            opportunity to become part of Ksquare University as an intern and
+            during my time there I learned UI/UX paradigms and polished my
+            skills as a frontend developer a little more.{" "}
           </p>
           <p className="about-history">
             {" "}
             I currently have 2 years of experience developing embedded systems
             using microprocessors such as Arduino and PSOC. I also have 1 year
             of experience developing the web application frontend using React.
-            My hobbies are playing video games, dungeons and dragons and playing
-            guitar.
+            My hobbies are playing video games such as Spellbreak or Valorant,
+            play dungeons and dragons with my friends, and playing the acoustic
+            guitar. I love to read fantasy novels like The name of the wind and
+            I would like to learn how to make simple videogames someday.
           </p>
 
           <div className="about-stack">

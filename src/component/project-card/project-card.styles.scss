@@ -1,0 +1,62 @@
+@import "../../tools/variables.scss";
+
+.featured-center {
+  width: 95vw;
+
+  .project-article {
+    display: block;
+    background: white;
+    margin-bottom: 2rem;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    margin-bottom: 2rem;
+    box-shadow: 0px 15px 5px rgba($color: #000000, $alpha: 0.1);
+
+    .card {
+      display: grid;
+      height: 100%;
+      grid-template-rows: auto 1fr;
+
+      .project-article-img {
+        position: relative;
+        overflow: hidden;
+
+        .card-img {
+          width: 100%;
+          object-fit: cover;
+          object-position: center center;
+        }
+      }
+
+      .card-info {
+        display: grid;
+        grid-template-rows: auto 1fr;
+        padding: 1.5rem 1rem;
+
+        h4 {
+          color: $color-primary;
+          text-decoration: line-through;
+        }
+        p {
+          font-size: 1.25rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $tablet-width) {
+  .featured-center {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(368px, 1fr));
+    column-gap: 2rem;
+
+    .card-img {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(368px, 1fr));
+      column-gap: 2rem;
+      height: 13.75rem;
+    }
+  }
+}

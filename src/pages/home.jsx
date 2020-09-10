@@ -4,7 +4,7 @@ import ResumePic from "../images/ResumePic.jpg";
 import ServiceList from "../component/service-list/service-list.component";
 import "./home.styles.scss";
 import SkillList from "../component/skills-list/skill-list.component";
-
+import ProjectCard from "../component/project-card/project-card.component";
 const Home = () => {
   return (
     <React.Fragment>
@@ -30,12 +30,21 @@ const Home = () => {
         </div>
         <ServiceList />
       </section>
+
       <section className="section">
         <div className="section-title">
           <h2>Skills</h2>
           <div className="underline" />
         </div>
         <SkillList />
+      </section>
+
+      <section className="section bg-secondary">
+        <div className="section-title">
+          <h2>Some of my projects</h2>
+          <div className="underline" />
+        </div>
+        <ProjectCard />
       </section>
     </React.Fragment>
   );
