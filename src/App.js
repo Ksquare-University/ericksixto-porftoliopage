@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Router basename="ericksixto-porftoliopage">
         <Header showSidebar={showSidebar} />
         <Sidebar visible={visibility} hideSidebar={hideSidebar} />
         <Switch>
