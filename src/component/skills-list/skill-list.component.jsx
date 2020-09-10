@@ -4,7 +4,7 @@ import {
   SiReactrouter,
   SiRedux,
   SiArduino,
-  SiMicrosoftoffice,
+  SiSalesforce,
   SiBootstrap,
   SiNodeDotJs,
 } from "react-icons/si";
@@ -87,8 +87,8 @@ const SkillList = () => {
       </div>
 
       <div className="skill">
-        <SiMicrosoftoffice />
-        <h4>Microsoft Office</h4>
+        <SiSalesforce />
+        <h4>Salesforce</h4>
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ import electronic from "../images/electronic.jpg";
 import Hangman from "../images/Hangman.jpg";
 import reactproject from "../images/reactproject.jpg";
 import Drone from "../images/Drone.jpg";
+import Medal from "../images/Medal.jpg";
 import "./projects.styles.scss";
 
 const Projects = () => {
@@ -207,6 +208,34 @@ const Projects = () => {
                 <span className="stack-skill">Python</span>
                 <span className="stack-skill">SolidWorks</span>
                 <span className="stack-skill">Electronics</span>
+              </div>
+            </div>
+          </article>
+
+          <article className="project">
+            <div className="project-img">
+              <img src={Medal} alt="Medal" />
+            </div>
+            <div className="project-info">
+              <h3 className="project-title">Medal 3D Design</h3>
+
+              <p className="project-description">
+                During my social service, I and my team was in charge of the
+                design of the 1st, 2nd, and 3rd place medals for the XXX Physics
+                Olympics on the state level. And my partner designed 3 3D medals
+                using a Delta icon and a number inside of it with the legend of
+                the UADY beneath.
+              </p>
+              <p className="project-description">
+                They were designed in SolidWorks and printed in 3D using
+                Simplify3D, after that they were painted in golden, silver and
+                copper colors.
+              </p>
+
+              <div className=" project-stack">
+                <span className="stack-skill">Ilustrator</span>
+                <span className="stack-skill">SolidWorks</span>
+                <span className="stack-skill">Simplify3D</span>
               </div>
             </div>
           </article>
