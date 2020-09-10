@@ -24,19 +24,19 @@ function App() {
         <Header showSidebar={showSidebar} />
         <Sidebar visible={visibility} hideSidebar={hideSidebar} />
         <Switch>
-          <Route exact path="/">
+          <Route basename="ericksixto-porftoliopage" exact path="/">
             <Home />
           </Route>
 
-          <Route path="/about">
+          <Route basename="ericksixto-porftoliopage" path="/about">
             <About />
           </Route>
 
-          <Route path="/contact">
+          <Route basename="ericksixto-porftoliopage" path="/contact">
             <Contact />
           </Route>
 
-          <Route path="/projects">
+          <Route basename="ericksixto-porftoliopage" path="/projects">
             <Projects />
           </Route>
         </Switch>
