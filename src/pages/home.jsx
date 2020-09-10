@@ -5,6 +5,9 @@ import ServiceList from "../component/service-list/service-list.component";
 import "./home.styles.scss";
 import SkillList from "../component/skills-list/skill-list.component";
 import ProjectCard from "../component/project-card/project-card.component";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { FaSalesforce } from "react-icons/fa";
+
 const Home = () => {
   return (
     <React.Fragment>
@@ -16,6 +19,38 @@ const Home = () => {
             </h1>
             <h4>mechatronics engineer & frontend developer</h4>
             <ButtonLink section="hero" route="contact" text="Contact me" />
+            <ul className="social-links">
+              <li>
+                <a
+                  className="social-link"
+                  href="https://www.linkedin.com/in/sixto-hernandez"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiFillLinkedin />
+                </a>
+              </li>
+              <li>
+                <a
+                  className="social-link"
+                  href="https://github.com/ErickSixto"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li>
+                <a
+                  className="social-link"
+                  href="https://trailblazer.me/id/sixtohdez"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaSalesforce />
+                </a>
+              </li>
+            </ul>
           </section>
 
           <section className="hero-img">

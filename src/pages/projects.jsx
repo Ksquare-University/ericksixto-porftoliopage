@@ -49,11 +49,11 @@ const Projects = () => {
                 <span className="stack-skill">HTML</span>
               </div>
 
-              <div className="project-links">
+              {/* <div className="project-links">
                 <a href="https://www.google.com">
                   <VscGithub />
                 </a>
-              </div>
+              </div> */}
             </div>
           </article>
 
@@ -118,11 +118,11 @@ const Projects = () => {
                 <span className="stack-skill">Java</span>
               </div>
 
-              <div className="project-links">
+              {/* <div className="project-links">
                 <a href="https://www.google.com">
                   <VscGithub />
                 </a>
-              </div>
+              </div> */}
             </div>
           </article>
 
