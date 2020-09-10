@@ -2,11 +2,12 @@
 
 .featured-center {
   width: 95vw;
+  row-gap: 2rem;
 
   .project-article {
     display: block;
     background: white;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     height: 100%;
     display: grid;
     grid-template-rows: auto 1fr;

@@ -45,6 +45,13 @@ const Home = () => {
           <div className="underline" />
         </div>
         <ProjectCard />
+        <div className="center-btn">
+          <ButtonLink
+            section="featured"
+            route="projects"
+            text="See all my projects"
+          />
+        </div>
       </section>
     </React.Fragment>
   );

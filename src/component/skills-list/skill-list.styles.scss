@@ -18,6 +18,7 @@
     }
 
     h4 {
+      display: block;
       font-family: "Roboto";
       font-weight: normal;
       font-size: 1.5rem;
@@ -27,20 +28,69 @@
   }
 }
 
-@media screen and (min-width: $mobile-landscape-width) {
-  .skill-list {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media screen and (min-width: $tablet-width) {
+@media screen and (min-width: 0px) and (max-width: $mobile-width) {
   .skill-list {
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+
+    .skill {
+      justify-self: center;
+      h4 {
+        display: none;
+      }
+    }
   }
 }
 
-@media screen and (min-width: $widescreen-width) {
+@media screen and (min-width: $mobile-width) and (max-width: $mobile-landscape-width) {
+  .skill-list {
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+
+    .skill {
+      justify-self: center;
+      align-items: center;
+      h4 {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $mobile-landscape-width) and (max-width: $tablet-width) {
+  .skill-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    .skill {
+      justify-self: center;
+      align-items: center;
+
+      h4 {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $tablet-width) and (max-width: $desktop-width) {
+  .skill-list {
+    grid-template-columns: 1fr 1fr 1fr;
+    .skill {
+      h4 {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $desktop-width) {
   .skill-list {
     grid-template-columns: repeat(4, 1fr);
+
+    .skill {
+      h4 {
+        display: block;
+      }
+    }
   }
 }
