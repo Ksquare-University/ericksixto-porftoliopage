@@ -7,6 +7,7 @@ import Projects from "./pages/projects";
 import Header from "./component/header/header.component";
 import Sidebar from "./component/sidebar/sidebar.component";
 import Footer from "./component/footer/footer.component";
+import ScrollToTop from "./component/scroll-to-top/scroll-to-top.component";
 import "./App.scss";
 
 function App() {
@@ -23,23 +24,26 @@ function App() {
       <Router basename="ericksixto-porftoliopage">
         <Header showSidebar={showSidebar} />
         <Sidebar visible={visibility} hideSidebar={hideSidebar} />
-        <Switch>
-          <Route basename="ericksixto-porftoliopage" exact path="/">
-            <Home />
-          </Route>
 
-          <Route basename="ericksixto-porftoliopage" path="/about">
-            <About />
-          </Route>
+        <ScrollToTop>
+          <Switch>
+            <Route basename="ericksixto-porftoliopage" exact path="/">
+              <Home />
+            </Route>
 
-          <Route basename="ericksixto-porftoliopage" path="/contact">
-            <Contact />
-          </Route>
+            <Route basename="ericksixto-porftoliopage" path="/about">
+              <About />
+            </Route>
 
-          <Route basename="ericksixto-porftoliopage" path="/projects">
-            <Projects />
-          </Route>
-        </Switch>
+            <Route basename="ericksixto-porftoliopage" path="/contact">
+              <Contact />
+            </Route>
+
+            <Route basename="ericksixto-porftoliopage" path="/projects">
+              <Projects />
+            </Route>
+          </Switch>
+        </ScrollToTop>
       </Router>
       <Footer />
     </div>
