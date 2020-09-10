@@ -1,5 +1,4 @@
 import React from "react";
-import { VscGithub } from "react-icons/vsc";
 import todolist from "../images/todolist.png";
 import cards from "../images/cards.jpg";
 import electronic from "../images/electronic.jpg";
