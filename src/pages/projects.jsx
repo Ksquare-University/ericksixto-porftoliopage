@@ -205,8 +205,8 @@ const Projects = () => {
               </p>
 
               <div className=" project-stack">
-                <span className="stack-skill">Python</span>
-                <span className="stack-skill">SolidWorks</span>
+                <span className="stack-skill">Simulink</span>
+                <span className="stack-skill">Android Studio</span>
                 <span className="stack-skill">Electronics</span>
               </div>
             </div>
