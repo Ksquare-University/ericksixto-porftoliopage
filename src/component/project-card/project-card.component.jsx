@@ -14,7 +14,7 @@ const ProjectCard = () => {
             <img className="card-img" src={reactproject} alt="Suggestion Box" />
           </div>
           <div className="card-info">
-            <h4>Sugestion Box</h4>
+            <h4>Suggestion Box</h4>
             <p>
               A Suggestion Box application that manages the suggestions of the
               employees. It has a login feature, reply system, filter and sort
