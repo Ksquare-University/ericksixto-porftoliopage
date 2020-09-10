@@ -27,19 +27,19 @@ function App() {
 
         <ScrollToTop>
           <Switch>
-            <Route basename="ericksixto-porftoliopage" exact path="/">
+            <Route basename="/ericksixto-porftoliopage" exact path="/">
               <Home />
             </Route>
 
-            <Route basename="ericksixto-porftoliopage" path="/about">
+            <Route basename="/ericksixto-porftoliopage" path="/about">
               <About />
             </Route>
 
-            <Route basename="ericksixto-porftoliopage" path="/contact">
+            <Route basename="/ericksixto-porftoliopage" path="/contact">
               <Contact />
             </Route>
 
-            <Route basename="ericksixto-porftoliopage" path="/projects">
+            <Route basename="/ericksixto-porftoliopage" path="/projects">
               <Projects />
             </Route>
           </Switch>
