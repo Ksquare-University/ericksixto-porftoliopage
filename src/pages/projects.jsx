@@ -17,7 +17,7 @@ const Projects = () => {
           <div className="underline" />
         </div>
         <div className="section-center projects-center">
-          <article className="project">
+          <article className="project" id="suggestion-box">
             <div className="project-img">
               <img src={reactproject} alt="react project" />
             </div>
@@ -56,7 +56,7 @@ const Projects = () => {
             </div>
           </article>
 
-          <article className="project">
+          <article className="project" id="hangman">
             <div className="project-img">
               <img src={Hangman} alt="hangman" />
             </div>
@@ -88,7 +88,7 @@ const Projects = () => {
             </div>
           </article>
 
-          <article className="project">
+          <article className="project" id="todolist">
             <div className="project-img">
               <img src={todolist} alt="to do list" />
             </div>
@@ -125,7 +125,7 @@ const Projects = () => {
             </div>
           </article>
 
-          <article className="project">
+          <article className="project" id="cards">
             <div className="project-img">
               <img src={cards} alt="cards" />
             </div>
@@ -152,7 +152,7 @@ const Projects = () => {
             </div>
           </article>
 
-          <article className="project">
+          <article className="project" id="drone">
             <div className="project-img">
               <img src={Drone} alt="Drone" />
             </div>
@@ -183,7 +183,7 @@ const Projects = () => {
             </div>
           </article>
 
-          <article className="project">
+          <article className="project" id="electronics">
             <div className="project-img">
               <img src={electronic} alt="Electronics" />
             </div>
@@ -211,7 +211,7 @@ const Projects = () => {
             </div>
           </article>
 
-          <article className="project">
+          <article className="project" id="medals">
             <div className="project-img">
               <img src={Medal} alt="Medal" />
             </div>
