@@ -47,7 +47,7 @@ const About = () => {
             {" "}
             I currently have 2 years of experience developing embedded systems
             using microprocessors such as Arduino and PSOC. I also have 1 year
-            of experience developing the web application frontend using React.
+            of experience developing frontend of web applications using React.
             My hobbies are playing video games such as Spellbreak or Valorant,
             play dungeons and dragons with my friends, and playing the acoustic
             guitar. I love to read fantasy novels like The name of the wind and
