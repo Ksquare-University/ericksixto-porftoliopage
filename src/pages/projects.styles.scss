@@ -8,6 +8,13 @@
     .project {
       display: grid;
       margin-bottom: 4rem;
+      &:hover {
+        .project-img {
+          img {
+            opacity: 1;
+          }
+        }
+      }
 
       .project-img {
         position: relative;
@@ -15,6 +22,7 @@
         border-top-left-radius: 0.25rem;
         border-top-right-radius: 0.25rem;
         z-index: 1;
+        background: rgba($color-primary-light, 0.1);
 
         img {
           position: absolute;
@@ -26,10 +34,6 @@
           object-position: center center;
           opacity: 0.6;
           transition: $transition;
-
-          &:hover {
-            opacity: 1;
-          }
         }
       }
       .project-info {
