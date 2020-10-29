@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ericksixto-porftoliopage/static/css/main.2b759a6b.chunk.css",
+    "main.js": "/ericksixto-porftoliopage/static/js/main.b6beb972.chunk.js",
+    "main.js.map": "/ericksixto-porftoliopage/static/js/main.b6beb972.chunk.js.map",
+    "runtime-main.js": "/ericksixto-porftoliopage/static/js/runtime-main.33f6f5d9.js",
+    "runtime-main.js.map": "/ericksixto-porftoliopage/static/js/runtime-main.33f6f5d9.js.map",
+    "static/js/2.2212ccff.chunk.js": "/ericksixto-porftoliopage/static/js/2.2212ccff.chunk.js",
+    "static/js/2.2212ccff.chunk.js.map": "/ericksixto-porftoliopage/static/js/2.2212ccff.chunk.js.map",
+    "index.html": "/ericksixto-porftoliopage/index.html",
+    "precache-manifest.8e916651c3f4b5affa7881b6e5048b53.js": "/ericksixto-porftoliopage/precache-manifest.8e916651c3f4b5affa7881b6e5048b53.js",
+    "service-worker.js": "/ericksixto-porftoliopage/service-worker.js",
+    "static/css/main.2b759a6b.chunk.css.map": "/ericksixto-porftoliopage/static/css/main.2b759a6b.chunk.css.map",
+    "static/js/2.2212ccff.chunk.js.LICENSE.txt": "/ericksixto-porftoliopage/static/js/2.2212ccff.chunk.js.LICENSE.txt",
+    "static/media/AboutPic.jpg": "/ericksixto-porftoliopage/static/media/AboutPic.bd94c321.jpg",
+    "static/media/Drone.jpg": "/ericksixto-porftoliopage/static/media/Drone.c296af61.jpg",
+    "static/media/Hangman.jpg": "/ericksixto-porftoliopage/static/media/Hangman.6c44c58e.jpg",
+    "static/media/Medal.jpg": "/ericksixto-porftoliopage/static/media/Medal.32c17302.jpg",
+    "static/media/ResumePic.jpg": "/ericksixto-porftoliopage/static/media/ResumePic.634c9128.jpg",
+    "static/media/cards.jpg": "/ericksixto-porftoliopage/static/media/cards.63b68a1e.jpg",
+    "static/media/electronic.jpg": "/ericksixto-porftoliopage/static/media/electronic.bc7e0b8d.jpg",
+    "static/media/reactproject.jpg": "/ericksixto-porftoliopage/static/media/reactproject.33bea410.jpg",
+    "static/media/todolist.png": "/ericksixto-porftoliopage/static/media/todolist.26f21535.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33f6f5d9.js",
+    "static/js/2.2212ccff.chunk.js",
+    "static/css/main.2b759a6b.chunk.css",
+    "static/js/main.b6beb972.chunk.js"
+  ]
+}
