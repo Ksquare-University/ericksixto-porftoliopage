@@ -7,6 +7,7 @@ import SkillList from "../component/skills-list/skill-list.component";
 import ProjectCard from "../component/project-card/project-card.component";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { FaSalesforce } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (

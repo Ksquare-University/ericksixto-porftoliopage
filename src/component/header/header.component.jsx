@@ -8,9 +8,11 @@ function Header({ showSidebar }) {
     <header className="page-header">
       <div className="nav-center">
         <div className="nav-header">
-          <h1 className="page-title">
-            Erick <span className="bold">Sixto</span>
-          </h1>
+          <Link className="title-link" to="/">
+            <h1 className="page-title">
+              Erick <span className="bold">Sixto</span>
+            </h1>
+          </Link>
         </div>
         <button className="nav-btn" onClick={showSidebar}>
           <HiMenu />
