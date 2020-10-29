@@ -21,11 +21,6 @@
         .bold {
           color: $color-primary;
           font-weight: bolder;
-          cursor: default;
-          &:hover {
-            transition: $transition;
-            color: $color-secondary-dark;
-          }
         }
       }
       h4 {

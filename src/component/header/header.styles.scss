@@ -4,14 +4,14 @@ $animate: all 0.2s ease-in-out;
 
 header.page-header {
   height: 5rem;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   display: grid;
   align-items: center;
   transition: $transition;
 
   div.nav-center {
     width: 100%;
-    margin: 0 2rem;
+    margin: 0;
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
@@ -52,7 +52,8 @@ header.page-header {
       cursor: pointer;
       justify-self: end;
       font-size: 2.5rem;
-      margin-right: 2rem;
+      margin-bottom: -0.5rem;
+
       &::after,
       ::before {
         margin: 0;
@@ -67,7 +68,19 @@ header.page-header {
     list-style-type: none;
   }
 }
-
+@media screen and (min-width: mobile-width) {
+  header.page-header {
+    padding: 1rem 2rem;
+    div.nav-center {
+      h1.page-title {
+        margin-left: 1rem;
+      }
+      .nav-btn {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
 @media screen and (min-width: $desktop-width) {
   div.nav-center {
     display: grid;

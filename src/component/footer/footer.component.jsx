@@ -39,7 +39,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <h4>web development - embedded systems - 3D design</h4>
+        <h4>web development - embedded systems - salesforce development</h4>
         <h4>
           Reach me at <span>sixtohernandezpalomo@gmail.com</span>
         </h4>

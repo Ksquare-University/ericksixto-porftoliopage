@@ -14,9 +14,11 @@ function App() {
   const [visibility, setVisibility] = useState(false);
   const showSidebar = () => {
     setVisibility(true);
+    document.body.style.overflowY = "hidden";
   };
   const hideSidebar = () => {
     setVisibility(false);
+    document.body.style.overflowY = "scroll";
   };
 
   return (

@@ -73,15 +73,45 @@
     }
   }
 }
+@media screen and (min-width: $mobile-small-width) {
+  .project-img {
+    height: 19rem;
+  }
+  .project-info {
+    .project-title {
+      font-size: 2em;
+    }
+  }
+}
 
 @media screen and (min-width: $mobile-width) {
   .project-img {
     height: 19rem;
   }
+  .project-info {
+    .project-title {
+      font-size: 1.5em;
+    }
+  }
+}
+@media screen and (min-width: $mobile-landscape-width) {
+  .project-img {
+    height: 22rem;
+  }
+  .project-info {
+    .project-title {
+      font-size: 1.5em;
+    }
+  }
 }
 @media screen and (min-width: $tablet-width) {
   .project-img {
     height: 22rem;
+  }
+  .project-info {
+    .project-title {
+      font-size: 1.5em;
+    }
   }
 }
 @media screen and (min-width: $desktop-width) {
@@ -99,6 +129,10 @@
   .project-info {
     z-index: 1;
     grid-column: 5/12;
+
+    .project-title {
+      font-size: 1.5em;
+    }
   }
 
   .project-img {

@@ -73,6 +73,9 @@ const Home = () => {
           <div className="underline" />
         </div>
         <SkillList />
+        <div className="center-btn">
+          <ButtonLink section="featured" route="about" text="About me" />
+        </div>
       </section>
 
       <section className="section bg-secondary">
