@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import ReactTooltip from "react-tooltip";
+
 import "./contact.styles.scss";
 
+const email = "sixtohernandezpalomo@gmail.com";
+let tooltipRef = React.createRef();
 const Contact = () => {
   return (
     <section className="section contact-page">
@@ -13,7 +17,19 @@ const Contact = () => {
         <p>
           Hi! If you are looking to get in touch with me, please reach me at my
           personal email:{" "}
-          <span className="highlight">sixtohernandezpalomo@gmail.com</span>
+          <span
+            data-tip={"Copied to clipboard!"}
+            ref={(ref) => (tooltipRef = ref)}
+            data-event="dbclick"
+            data-offset="{ 'right': 100}"
+            className="highlight"
+            onClick={() => {
+              navigator.clipboard.writeText(email);
+              ReactTooltip.show(tooltipRef);
+            }}
+          >
+            sixtohernandezpalomo@gmail.com
+          </span>
         </p>
         <p>
           You can also contact me at my{" "}
@@ -34,6 +50,17 @@ const Contact = () => {
           Email Me
         </a>
       </div>
+      <ReactTooltip
+        place="top"
+        type="dark"
+        effect="solid"
+        clickable={true}
+        afterShow={() =>
+          setTimeout(function () {
+            ReactTooltip.hide(tooltipRef);
+          }, 2000)
+        }
+      />
     </section>
   );
 };
