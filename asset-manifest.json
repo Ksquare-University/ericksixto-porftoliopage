@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ericksixto-porftoliopage/static/css/main.338bd246.chunk.css",
-    "main.js": "/ericksixto-porftoliopage/static/js/main.f66956e3.chunk.js",
-    "main.js.map": "/ericksixto-porftoliopage/static/js/main.f66956e3.chunk.js.map",
+    "main.js": "/ericksixto-porftoliopage/static/js/main.ce1208a4.chunk.js",
+    "main.js.map": "/ericksixto-porftoliopage/static/js/main.ce1208a4.chunk.js.map",
     "runtime-main.js": "/ericksixto-porftoliopage/static/js/runtime-main.33f6f5d9.js",
     "runtime-main.js.map": "/ericksixto-porftoliopage/static/js/runtime-main.33f6f5d9.js.map",
     "static/js/2.2212ccff.chunk.js": "/ericksixto-porftoliopage/static/js/2.2212ccff.chunk.js",
     "static/js/2.2212ccff.chunk.js.map": "/ericksixto-porftoliopage/static/js/2.2212ccff.chunk.js.map",
     "index.html": "/ericksixto-porftoliopage/index.html",
-    "precache-manifest.3f0f8bb232e55ede7cf06e54a560a09a.js": "/ericksixto-porftoliopage/precache-manifest.3f0f8bb232e55ede7cf06e54a560a09a.js",
+    "precache-manifest.9481add4e809cd9b4a983405468842c2.js": "/ericksixto-porftoliopage/precache-manifest.9481add4e809cd9b4a983405468842c2.js",
     "service-worker.js": "/ericksixto-porftoliopage/service-worker.js",
     "static/css/main.338bd246.chunk.css.map": "/ericksixto-porftoliopage/static/css/main.338bd246.chunk.css.map",
     "static/js/2.2212ccff.chunk.js.LICENSE.txt": "/ericksixto-porftoliopage/static/js/2.2212ccff.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.33f6f5d9.js",
     "static/js/2.2212ccff.chunk.js",
     "static/css/main.338bd246.chunk.css",
-    "static/js/main.f66956e3.chunk.js"
+    "static/js/main.ce1208a4.chunk.js"
   ]
 }
