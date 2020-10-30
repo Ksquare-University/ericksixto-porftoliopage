@@ -3,8 +3,9 @@ import ReactTooltip from "react-tooltip";
 
 import "./contact.styles.scss";
 
-const email = "sixtohernandezpalomo@gmail.com";
+const email = "sixto.developer@gmail.com";
 let tooltipRef = React.createRef();
+
 const Contact = () => {
   return (
     <section className="section contact-page">
@@ -18,6 +19,7 @@ const Contact = () => {
           Hi! If you are looking to get in touch with me, please reach me at my
           personal email:{" "}
           <span
+            id="email"
             data-tip={"Copied to clipboard!"}
             ref={(ref) => (tooltipRef = ref)}
             data-event="dbclick"
@@ -28,7 +30,7 @@ const Contact = () => {
               ReactTooltip.show(tooltipRef);
             }}
           >
-            sixtohernandezpalomo@gmail.com
+            {email}
           </span>
         </p>
         <p>
@@ -45,7 +47,7 @@ const Contact = () => {
 
         <a
           className="button"
-          href="mailto:sixtohernandezpalomo@email.com?subject=I would like to hire you"
+          href={"mailto:" + email + "?subject=I would like to hire you"}
         >
           Email Me
         </a>

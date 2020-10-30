@@ -41,7 +41,7 @@ const Footer = () => {
         </ul>
         <h4>web development - embedded systems - salesforce development</h4>
         <h4>
-          Reach me at <span>sixtohernandezpalomo@gmail.com</span>
+          Reach me at <span>sixto.developer@gmail.com</span>
         </h4>
       </div>
     </footer>
