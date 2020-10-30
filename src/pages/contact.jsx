@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactTooltip from "react-tooltip";
 
 import "./contact.styles.scss";

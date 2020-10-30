@@ -6,6 +6,7 @@ import Hangman from "../images/Hangman.jpg";
 import reactproject from "../images/reactproject.jpg";
 import Drone from "../images/Drone.jpg";
 import Medal from "../images/Medal.jpg";
+import Countdown from "../images/Countdown.png";
 import "./projects.styles.scss";
 
 const Projects = () => {
@@ -17,6 +18,48 @@ const Projects = () => {
           <div className="underline" />
         </div>
         <div className="section-center projects-center">
+          <article className="project" id="puzzle-countdown">
+            <div className="project-img">
+              <img src={Countdown} alt="Puzzle Countdown" />
+            </div>
+            <div className="project-info">
+              <h3 className="project-title">D&D Puzzle Countdown</h3>
+
+              <p className="project-description">
+                A simple countdown with a reset button, but it is styled to be
+                used in my D&D game as a prop for a puzzle my players will have
+                to confront.
+              </p>
+              <p className="project-description">
+                The project is really nothing serious, a timer that counts down
+                from 15 to 0 every 5 seconds (which in-game time is 1 second)
+                but the styles are made so the page will represent the room and
+                the timer will show animations depending on the time they have
+                left. The button also resembles a rune that emits magic light
+                when they reach it.
+              </p>
+
+              <div className=" project-stack">
+                <span className="stack-skill">React</span>
+                <span className="stack-skill">SASS</span>
+                <span className="stack-skill">HTML</span>
+                <a
+                  href="https://ericksixto.github.io/button-countdown/"
+                  className="stack-skill-demo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  DEMO
+                </a>
+              </div>
+
+              {/* <div className="project-links">
+                <a href="https://www.google.com">
+                  <VscGithub />
+                </a>
+              </div> */}
+            </div>
+          </article>
           <article className="project" id="suggestion-box">
             <div className="project-img">
               <img src={reactproject} alt="react project" />
