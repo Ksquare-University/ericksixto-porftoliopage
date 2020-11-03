@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ericksixto-porftoliopage/static/css/main.849d1e17.chunk.css",
-    "main.js": "/ericksixto-porftoliopage/static/js/main.5a8d2ff5.chunk.js",
-    "main.js.map": "/ericksixto-porftoliopage/static/js/main.5a8d2ff5.chunk.js.map",
+    "main.js": "/ericksixto-porftoliopage/static/js/main.fac3c95e.chunk.js",
+    "main.js.map": "/ericksixto-porftoliopage/static/js/main.fac3c95e.chunk.js.map",
     "runtime-main.js": "/ericksixto-porftoliopage/static/js/runtime-main.33f6f5d9.js",
     "runtime-main.js.map": "/ericksixto-porftoliopage/static/js/runtime-main.33f6f5d9.js.map",
-    "static/js/2.0b2c9f4c.chunk.js": "/ericksixto-porftoliopage/static/js/2.0b2c9f4c.chunk.js",
-    "static/js/2.0b2c9f4c.chunk.js.map": "/ericksixto-porftoliopage/static/js/2.0b2c9f4c.chunk.js.map",
+    "static/js/2.128f7ce0.chunk.js": "/ericksixto-porftoliopage/static/js/2.128f7ce0.chunk.js",
+    "static/js/2.128f7ce0.chunk.js.map": "/ericksixto-porftoliopage/static/js/2.128f7ce0.chunk.js.map",
     "index.html": "/ericksixto-porftoliopage/index.html",
-    "precache-manifest.b6d39390902edcd82395a4664eecd213.js": "/ericksixto-porftoliopage/precache-manifest.b6d39390902edcd82395a4664eecd213.js",
+    "precache-manifest.2ad7972232122f496fd39e02372b3a17.js": "/ericksixto-porftoliopage/precache-manifest.2ad7972232122f496fd39e02372b3a17.js",
     "service-worker.js": "/ericksixto-porftoliopage/service-worker.js",
     "static/css/main.849d1e17.chunk.css.map": "/ericksixto-porftoliopage/static/css/main.849d1e17.chunk.css.map",
-    "static/js/2.0b2c9f4c.chunk.js.LICENSE.txt": "/ericksixto-porftoliopage/static/js/2.0b2c9f4c.chunk.js.LICENSE.txt",
+    "static/js/2.128f7ce0.chunk.js.LICENSE.txt": "/ericksixto-porftoliopage/static/js/2.128f7ce0.chunk.js.LICENSE.txt",
     "static/media/AboutPic.jpg": "/ericksixto-porftoliopage/static/media/AboutPic.bd94c321.jpg",
     "static/media/Countdown.png": "/ericksixto-porftoliopage/static/media/Countdown.226fdd0c.png",
     "static/media/Drone.jpg": "/ericksixto-porftoliopage/static/media/Drone.c296af61.jpg",
@@ -19,14 +19,16 @@
     "static/media/Medal.jpg": "/ericksixto-porftoliopage/static/media/Medal.32c17302.jpg",
     "static/media/ResumePic.jpg": "/ericksixto-porftoliopage/static/media/ResumePic.634c9128.jpg",
     "static/media/cards.jpg": "/ericksixto-porftoliopage/static/media/cards.63b68a1e.jpg",
+    "static/media/dx1.jpg": "/ericksixto-porftoliopage/static/media/dx1.22ee3d0c.jpg",
     "static/media/electronic.jpg": "/ericksixto-porftoliopage/static/media/electronic.bc7e0b8d.jpg",
+    "static/media/levitadorreal.jpeg": "/ericksixto-porftoliopage/static/media/levitadorreal.9d3ab793.jpeg",
     "static/media/reactproject.jpg": "/ericksixto-porftoliopage/static/media/reactproject.33bea410.jpg",
     "static/media/todolist.png": "/ericksixto-porftoliopage/static/media/todolist.26f21535.png"
   },
   "entrypoints": [
     "static/js/runtime-main.33f6f5d9.js",
-    "static/js/2.0b2c9f4c.chunk.js",
+    "static/js/2.128f7ce0.chunk.js",
     "static/css/main.849d1e17.chunk.css",
-    "static/js/main.5a8d2ff5.chunk.js"
+    "static/js/main.fac3c95e.chunk.js"
   ]
 }
