@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5aceedc36d45e20ada17c51a16b6d24",
+    "revision": "ba3e33303cadc2b146c89052d3135b02",
     "url": "/ericksixto-porftoliopage/index.html"
   },
   {
-    "revision": "8771a96415c758f66154",
+    "revision": "a58de75f6aba0e4a947b",
     "url": "/ericksixto-porftoliopage/static/css/main.849d1e17.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ericksixto-porftoliopage/static/js/2.128f7ce0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8771a96415c758f66154",
-    "url": "/ericksixto-porftoliopage/static/js/main.fac3c95e.chunk.js"
+    "revision": "a58de75f6aba0e4a947b",
+    "url": "/ericksixto-porftoliopage/static/js/main.a30ae9c0.chunk.js"
   },
   {
     "revision": "0413d22d2cdc0c255582",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ericksixto-porftoliopage/static/media/electronic.bc7e0b8d.jpg"
   },
   {
-    "revision": "9d3ab79371b7f35038c8014a11659d40",
-    "url": "/ericksixto-porftoliopage/static/media/levitadorreal.9d3ab793.jpeg"
+    "revision": "c2a915156d247dcab5ccafdd24de9f9d",
+    "url": "/ericksixto-porftoliopage/static/media/levitator.c2a91515.png"
   },
   {
     "revision": "33bea4107f1f7fc376125cdd50ae25a9",
