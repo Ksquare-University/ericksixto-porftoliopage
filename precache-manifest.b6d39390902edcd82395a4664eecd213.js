@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "85ac1c39d6801715d96586abedd4d037",
+    "revision": "1cd9c08d1f391050958fc1905ea931c2",
     "url": "/ericksixto-porftoliopage/index.html"
   },
   {
-    "revision": "fcf454bb89f6de9caa6f",
+    "revision": "4a113e049af316bc655a",
     "url": "/ericksixto-porftoliopage/static/css/main.849d1e17.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ericksixto-porftoliopage/static/js/2.0b2c9f4c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fcf454bb89f6de9caa6f",
-    "url": "/ericksixto-porftoliopage/static/js/main.0a5e70c5.chunk.js"
+    "revision": "4a113e049af316bc655a",
+    "url": "/ericksixto-porftoliopage/static/js/main.5a8d2ff5.chunk.js"
   },
   {
     "revision": "0413d22d2cdc0c255582",
