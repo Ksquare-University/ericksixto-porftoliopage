@@ -127,6 +127,15 @@ const Projects = () => {
                 <span className="stack-skill">PSOC</span>
                 <span className="stack-skill">Assembly Code</span>
                 <span className="stack-skill">Electronics</span>
+
+                <a
+                  href="https://drive.google.com/drive/folders/1Uxz0RPrhKp43uZ2ZI1AfqFjObYnNs4J8?usp=sharing"
+                  className="stack-skill-demo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Photos
+                </a>
               </div>
             </div>
           </article>
@@ -158,6 +167,14 @@ const Projects = () => {
                 <span className="stack-skill">Firebase</span>
                 <span className="stack-skill">XML</span>
                 <span className="stack-skill">Java</span>
+                <a
+                  href="https://drive.google.com/drive/folders/1sABS0-KADgwUa6Lbb3bb3spk1-QcUvF_?usp=sharing"
+                  className="stack-skill-demo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Photos
+                </a>
               </div>
 
               {/* <div className="project-links">
@@ -191,6 +208,15 @@ const Projects = () => {
                 <span className="stack-skill">Image Processing</span>
                 <span className="stack-skill">C</span>
                 <span className="stack-skill">Electronics</span>
+
+                <a
+                  href="https://drive.google.com/drive/folders/1UVfaNl16NCjWVHKRmIhJ-bzbW8xRp68H?usp=sharing"
+                  className="stack-skill-demo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Photos
+                </a>
               </div>
             </div>
           </article>
@@ -222,6 +248,14 @@ const Projects = () => {
                 <span className="stack-skill">Python</span>
                 <span className="stack-skill">SolidWorks</span>
                 <span className="stack-skill">Electronics</span>
+                <a
+                  href="https://drive.google.com/drive/folders/1jUDYSin-GvGv85arigvD7h72TeQG9KLp?usp=sharing"
+                  className="stack-skill-demo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Photos
+                </a>
               </div>
             </div>
           </article>
@@ -278,6 +312,15 @@ const Projects = () => {
                 <span className="stack-skill">Ilustrator</span>
                 <span className="stack-skill">SolidWorks</span>
                 <span className="stack-skill">Simplify3D</span>
+
+                <a
+                  href="https://drive.google.com/drive/folders/1S2uVXKcQVPjETEfG7yAEXNBBwzegJCtX?usp=sharing"
+                  className="stack-skill-demo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Photos
+                </a>
               </div>
             </div>
           </article>
