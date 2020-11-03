@@ -44,6 +44,17 @@ const About = () => {
             skills as a frontend developer a little more.{" "}
           </p>
           <p className="about-history">
+            Today, I am at The Ksquare Group in training to become a Salesforce
+            Platform Developer, so I can help businesses to get their workflow
+            done and their problems solved, also I am polishing my soft skills,
+            programming fundamentals and my agile methodologies while in
+            training. I like to automate processes, to see how beautiful a a
+            webpage can become, and see them shrink and change without losing
+            their aesthetic or functionality and I hate when something goes
+            wrong, and that happens to me a lot during my workflow, so I try my
+            best to solve bad practices, bugs, or errors.
+          </p>
+          <p className="about-history">
             {" "}
             I currently have 2 years of experience developing embedded systems
             using microprocessors such as Arduino and PSOC. I also have 1 year
@@ -53,7 +64,6 @@ const About = () => {
             guitar. I love to read fantasy novels like The name of the wind and
             I would like to learn how to make simple videogames someday.
           </p>
-
           <div className="about-stack">
             <span className="stack-skill">html</span>
             <span className="stack-skill">css</span>
