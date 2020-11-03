@@ -8,7 +8,7 @@ import Drone from "../images/Drone.jpg";
 import Medal from "../images/Medal.jpg";
 import Countdown from "../images/Countdown.png";
 import dx1 from "../images/dx1.jpg";
-import levitadorreal from "../images/levitadorreal.jepg";
+import levitadorreal from "../images/levitadorreal.jpeg";
 import "./projects.styles.scss";
 
 const Projects = () => {
