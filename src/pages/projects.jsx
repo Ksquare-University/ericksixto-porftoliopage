@@ -8,7 +8,7 @@ import Drone from "../images/Drone.jpg";
 import Medal from "../images/Medal.jpg";
 import Countdown from "../images/Countdown.png";
 import dx1 from "../images/dx1.jpg";
-import levitadorreal from "../images/levitadorreal.jpeg";
+import levitator from "../images/levitator.jpeg";
 import "./projects.styles.scss";
 
 const Projects = () => {
@@ -322,7 +322,7 @@ const Projects = () => {
 
           <article className="project" id="medals">
             <div className="project-img">
-              <img src={levitadorreal} alt="Levitator" />
+              <img src={levitator} alt="Levitator" />
             </div>
             <div className="project-info">
               <h3 className="project-title">Pneumatic levitator</h3>
