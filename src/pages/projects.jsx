@@ -7,6 +7,8 @@ import reactproject from "../images/reactproject.jpg";
 import Drone from "../images/Drone.jpg";
 import Medal from "../images/Medal.jpg";
 import Countdown from "../images/Countdown.png";
+import dx1 from "../images/dx1.jpg";
+import levitadorreal from "../images/levitadorreal.jepg";
 import "./projects.styles.scss";
 
 const Projects = () => {
@@ -18,6 +20,36 @@ const Projects = () => {
           <div className="underline" />
         </div>
         <div className="section-center projects-center">
+          <article className="project" id="puzzle-countdown">
+            <div className="project-img">
+              <img src={dx1} alt="Digital Dice" />
+            </div>
+            <div className="project-info">
+              <h3 className="project-title">Digital Dice</h3>
+
+              <p className="project-description">
+                A 3D render of a personal project. The "DX" a digital-electronic
+                die that has no faces with numbers, rather all their faces are
+                empty however when you roll it, it will show the number obtained
+                for that roll in all their faces. This is a project in
+                development, and today I only have the first renders in
+                SolidWorks and a small electronic design.
+              </p>
+
+              <div className=" project-stack">
+                <span className="stack-skill">SolidWorks</span>
+                <span className="stack-skill">Electronics</span>
+                <a
+                  href="https://drive.google.com/drive/folders/19JfVHQEXSabWghpfX-wgsiYS00SbDvbS?usp=sharing"
+                  className="stack-skill-demo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  PHOTOS
+                </a>
+              </div>
+            </div>
+          </article>
           <article className="project" id="puzzle-countdown">
             <div className="project-img">
               <img src={Countdown} alt="Puzzle Countdown" />
@@ -284,6 +316,40 @@ const Projects = () => {
                 <span className="stack-skill">Simulink</span>
                 <span className="stack-skill">Android Studio</span>
                 <span className="stack-skill">Electronics</span>
+              </div>
+            </div>
+          </article>
+
+          <article className="project" id="medals">
+            <div className="project-img">
+              <img src={levitadorreal} alt="Levitator" />
+            </div>
+            <div className="project-info">
+              <h3 className="project-title">Pneumatic levitator</h3>
+
+              <p className="project-description">
+                An analogic control project consists of a pneumatic levitator
+                that pushes a small ball into the air within a tube and
+                maintains the ball at the desired position.
+              </p>
+              <p className="project-description">
+                The project is a showcase of how a control system works, using a
+                PDI analogic control circuit to give the desired current at the
+                fans so the ball stays at the desired position.
+              </p>
+
+              <div className=" project-stack">
+                <span className="stack-skill">Control</span>
+                <span className="stack-skill">Electronics</span>
+
+                <a
+                  href="https://drive.google.com/drive/folders/1BGcM_fs0uXIcigE9nb8tnf8hGhapez9_?usp=sharing"
+                  className="stack-skill-demo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Photos
+                </a>
               </div>
             </div>
           </article>
