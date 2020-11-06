@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ericksixto-porftoliopage/precache-manifest.cd705335f27d4c7963c9a6187ab9fd70.js"
+  "/ericksixto-porftoliopage/precache-manifest.b0383eaa20334cadd48d02ae9025cef3.js"
 );
 
 self.addEventListener('message', (event) => {
