@@ -1,0 +1,138 @@
+@import "../tools/variables.scss";
+
+.services-page {
+  display: block;
+  background-color: $color-secondary-back;
+  min-height: calc(100vh - 5rem);
+  .section {
+    padding: 1rem 0;
+  }
+  .services-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: $color-secondary-light;
+    .summary-info {
+      display: none;
+    }
+    .section-title {
+      margin-bottom: 1rem;
+      h2 {
+        span {
+          color: $color-primary;
+        }
+      }
+    }
+    #back-text {
+      display: none;
+      position: absolute;
+      color: $color-primary-light;
+      opacity: 0.1;
+    }
+  }
+  .services-stack {
+    display: grid;
+    min-height: calc(100vh - 9rem);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2px;
+    row-gap: 2px;
+
+    .flip-card {
+      &:nth-of-type(2n) {
+        .flip-card-front {
+          opacity: 0.95;
+        }
+      }
+      &:nth-of-type(3) {
+        .flip-card-front {
+          background-color: $footer-color;
+        }
+      }
+      &:nth-of-type(4) {
+        .flip-card-front {
+          background-color: $footer-color;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $widescreen-width) {
+  .services-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 5rem);
+    .services-stack {
+      z-index: 1;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      column-gap: 2px;
+      row-gap: 2px;
+
+      .flip-card {
+        &:nth-of-type(2n) {
+          .flip-card-front {
+            opacity: 0.95;
+          }
+        }
+        &:nth-of-type(3) {
+          .flip-card-front {
+            background-color: $footer-color;
+          }
+        }
+        &:nth-of-type(4) {
+          .flip-card-front {
+            background-color: $footer-color;
+          }
+        }
+      }
+    }
+    .services-summary {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      background-color: $color-secondary-light;
+
+      .section-title {
+        margin-top: 7rem;
+        align-self: start;
+        margin-left: 15%;
+        h2 {
+          span {
+            color: $color-primary;
+          }
+        }
+        .underline {
+          width: 10rem;
+          margin-left: 0;
+        }
+      }
+      #back-text {
+        z-index: 0;
+        display: block;
+        position: absolute;
+        color: $color-primary-light;
+        top: 25rem;
+        left: -5rem;
+        font-size: 15rem;
+        opacity: 0.1;
+      }
+      .summary-info {
+        display: block;
+        margin-top: 5rem;
+        width: 70%;
+        margin-left: 15%;
+        p {
+          font-family: "Open Sans";
+          font-size: 1.5rem;
+          line-height: 2rem;
+          text-align: left;
+          color: black;
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+}

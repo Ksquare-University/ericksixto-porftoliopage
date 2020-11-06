@@ -3,6 +3,7 @@
 $animate: all 0.2s ease-in-out;
 
 header.page-header {
+  z-index: 2;
   height: 5rem;
   padding: 1rem 1rem;
   display: grid;
@@ -82,45 +83,53 @@ header.page-header {
   }
 }
 @media screen and (min-width: $desktop-width) {
-  div.nav-center {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-
-    .nav-btn {
-      display: none;
-    }
-    .nav-links {
+  header.page-header {
+    div.nav-center {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      justify-items: center;
-      column-gap: 2rem;
-      justify-self: end;
+      grid-template-columns: auto 1fr;
+      align-items: center;
 
-      .nav-link {
-        font-family: "Open Sans";
-        text-transform: uppercase;
-        color: black;
-        font-weight: bold;
-        letter-spacing: 0.25rem;
-        transition: $transition;
-        text-decoration: none;
-        font-size: 1.3rem;
-
-        &:hover {
-          font-weight: bolder;
-          color: $color-primary-light;
-          transition: $animate;
+      .nav-header {
+        h1.page-title {
+          font-size: 1.7rem;
+          cursor: pointer;
         }
+      }
+      .nav-btn {
+        display: none;
+      }
+      .nav-links {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-items: center;
+        column-gap: 2rem;
+        justify-self: end;
 
-        &.contact {
-          background-color: $color-primary-light;
-          color: white;
-          padding: 0.25rem 0.4rem;
-          border-radius: 0.25rem;
+        .nav-link {
+          font-family: "Open Sans";
+          text-transform: uppercase;
+          color: black;
+          font-weight: bold;
+          letter-spacing: 0.25rem;
+          transition: $transition;
+          text-decoration: none;
+          font-size: 1.3rem;
 
           &:hover {
-            background-color: $color-primary;
+            font-weight: bolder;
+            color: $color-primary-light;
+            transition: $animate;
+          }
+
+          &.contact {
+            background-color: $color-primary-light;
+            color: white;
+            padding: 0.25rem 0.4rem;
+            border-radius: 0.25rem;
+
+            &:hover {
+              background-color: $color-primary;
+            }
           }
         }
       }

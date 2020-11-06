@@ -64,6 +64,9 @@ const Home = () => {
           <div className="underline" />
         </div>
         <ServiceList />
+        <div className="center-btn">
+          <ButtonLink section="services" route="services" text="My Services" />
+        </div>
       </section>
 
       <section className="section">

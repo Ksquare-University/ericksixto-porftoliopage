@@ -17,8 +17,8 @@ const Sidebar = ({ visible, hideSidebar }) => {
             </Link>
           </li>
           <li>
-            <Link className="sidebar-link" to="/contact">
-              <span onClick={hideSidebar}>Contact</span>
+            <Link className="sidebar-link" to="/services">
+              <span onClick={hideSidebar}>Services</span>
             </Link>
           </li>
           <li>
@@ -29,6 +29,11 @@ const Sidebar = ({ visible, hideSidebar }) => {
           <li>
             <Link className="sidebar-link" to="/projects">
               <span onClick={hideSidebar}>Projects</span>
+            </Link>
+          </li>
+          <li>
+            <Link className="sidebar-link" to="/contact">
+              <span onClick={hideSidebar}>Contact</span>
             </Link>
           </li>
         </ul>

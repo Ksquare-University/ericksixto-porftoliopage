@@ -4,6 +4,7 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import Contact from "./pages/contact";
 import Projects from "./pages/projects";
+import Services from "./pages/services";
 import Header from "./component/header/header.component";
 import Sidebar from "./component/sidebar/sidebar.component";
 import Footer from "./component/footer/footer.component";
@@ -43,6 +44,9 @@ function App() {
 
             <Route basename="/ericksixto-porftoliopage" path="/projects">
               <Projects />
+            </Route>
+            <Route basename="/ericksixto-porftoliopage" path="/services">
+              <Services />
             </Route>
           </Switch>
         </ScrollToTop>

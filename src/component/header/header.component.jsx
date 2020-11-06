@@ -24,6 +24,11 @@ function Header({ showSidebar }) {
             </Link>
           </li>
           <li>
+            <Link className="nav-link" to="/services">
+              <span className="hover-3">Services</span>
+            </Link>
+          </li>
+          <li>
             <Link className="nav-link" to="/about">
               <span className="hover-3">About</span>
             </Link>
